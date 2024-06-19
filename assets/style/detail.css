@@ -1,0 +1,127 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+    animation: fadeInAnimation ease 1s forwards;
+}
+
+nav {
+    background-color: #2B8992;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.wrapper-detail-kandidat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.item {
+    margin-right: 20px;
+}
+
+.item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.detail-kandidat {
+    width: 600px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-button {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    width: 300px;
+    height: 60px;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #2B8992;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #191e1f;
+    }
+
+    z-index: 1;
+}
+
+.back-button {
+    font-weight: 700;
+    margin-left: 920px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 50%;
+
+    &:hover {
+        color: #2B8992;
+    }
+}

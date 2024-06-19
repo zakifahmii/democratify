@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body {
+    margin-left: 7cm;
+    padding: 10px;
+    font-family: "Hammersmith One", sans-serif;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.card-perolehan {
+    height: 356px;
+    width: 922px;
+    padding: 20px;
+    background-image: url('../img/Background_perolehan_suara.png');
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.103);
+    border-radius: 48.59px;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.ttl {
+    padding: 10px;
+    font-size: 30px;
+    width: 423px;
+    height: 169px;
+    border-radius: 20px;
+    font-size: 24px;
+    color: black;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.total-siswa {
+    color: #2B8992;
+}
+
+.selected-siswa {
+    color: #FF4D77;
+}
+
+.card-waktu {
+    position: relative;
+    background-color: #F3AC40;
+    margin: 20px 0;
+    height: 430px;
+    width: 922px;
+    padding: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.103);
+    border-radius: 48.59px;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.card-info {
+    display: flex;
+}
+
+.time-section {
+    width: 125px;
+    height: 155px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #FFFFFF;
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.image-time {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+
+.image-time img {
+    width: 271px;
+    height: 332px;
+}
+
+.label {
+    color: #333;
+}
+
+.title {
+    color: #FFFFFF;
+}
+
+.set-timer {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.set-timer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Hammersmith One", sans-serif;
+}

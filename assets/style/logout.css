@@ -1,0 +1,25 @@
+.logout {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.logout a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    background-color: #ff0000;
+    border-radius: 30%;
+    transition: background-color 0.3s ease;
+}
+
+.logout a:hover {
+    background-color: #C40C0C;
+}
+
+.logout a i {
+    font-size: 1.5rem;
+    line-height: 1;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body {
+    font-family: "Hammersmith One", sans-serif;
+    padding: 0px 0px 0px 250px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 0.2rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: calc(100% - 2px);
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#btn-back {
+    background-color: #FFBF00;
+    color: #ffff;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    background-color: #2B8992;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(2, 92, 124);
+    color: #fff;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
